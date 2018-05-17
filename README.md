@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# Automatic Music Transcription
 
-You can use the [editor on GitHub](https://github.com/dquenne/cs702/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repository holds code and example results for my undergraduate senior thesis on automatic music transcription.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Source Code
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Sample Results
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dquenne/cs702/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Output on Frederic Chopin's Nocturne in E-flat major, Op. 9, No. 2
+1. Iterative Method
+  <audio src="sample-results/chopin-nocturne-iterative.mp3" controls preload></audio>
+2. Joint Method
+  <audio src="sample-results/chopin-nocturne-joint.mp3" controls preload></audio>
+  
+# Output on Frederic Chopin's Waltz in D-flat major, Op. 64, No. 1 ("Minute Waltz")
+1. Iterative Method
+  <audio src="sample-results/chopin-waltz-iterative.mp3" controls preload></audio>
+2. Joint Method
+  <audio src="sample-results/chopin-waltz-joint.mp3" controls preload></audio>
